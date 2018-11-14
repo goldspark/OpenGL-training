@@ -21,7 +21,7 @@ void Mesh::createMesh(GLfloat *vertices, unsigned int *indices, unsigned int num
 {
 
 
-	indexCount = 0;
+	indexCount = numOfIndices;
 
 	glGenVertexArrays(1, &VAO);
 	glBindVertexArray(VAO);
